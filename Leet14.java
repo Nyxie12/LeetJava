@@ -15,9 +15,11 @@ public class Leet14 {
             {
                 if (i == s.length() || s.charAt(i) != strs[0].charAt(i))
                 {
+                    return res;
                 }
                 res += strs[0].charAt(i);
             }
         }
+        return res;
     }
 }
