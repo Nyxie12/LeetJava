@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class leet561 {
     public static int arrayPairSum(int[] sums) {
         int total = 0;
-        Arrays.sort(sums);
+            Arrays.sort(sums);
         for (int i = 0; i < sums.length; i += 2) {
             total += sums[i];
         }

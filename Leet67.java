@@ -24,7 +24,7 @@ public class Leet67 {
         String b = "11";
 
         char[] aArr = a.toCharArray();
-        char[] bArr = a.toCharArray()
+        char[] bArr = a.toCharArray();
 
         if (a.length() > b.length()){
             for (int i = 0; i<a.length(); i++){
